@@ -1,5 +1,5 @@
 # Visual Contrastive Learning for Few-shot Image Classification
-This repository provides the code to classify images in two different categories, i.e. Similar (1) and Dissimilar (0) based on the image similarity task performed by utilizing a Contrastive Learning-based approach (including employing a custom contrastive loss). Furthermore, [Siamese Networks]() is being used in n-way k-shot settings considered in the current implementation.
+This repository provides the code to classify images in two different categories, i.e. Similar (1) and Dissimilar (0) based on the image similarity task performed by utilizing a Contrastive Learning-based approach (including employing a custom contrastive loss). Furthermore, [Siamese Networks](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf) is being used in n-way k-shot settings considered in the current implementation.
 ## Requirements
 - `Python 3.9`
 - `PyTorch 1.10.2`
