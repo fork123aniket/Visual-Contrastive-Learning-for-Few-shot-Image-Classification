@@ -27,7 +27,6 @@ def loadimgs(path, n=0):
                 image_path = os.path.join(letter_path, filename)
                 image = Image.open(image_path)
                 image = image.convert("L")
-                # image = cv2.imread(image_path, 0)
                 category_images.append(image)
                 y.append(curr_y)
             try:
