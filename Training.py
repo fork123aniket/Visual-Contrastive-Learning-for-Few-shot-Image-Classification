@@ -91,7 +91,7 @@ def show_plot(iteration, loss):
 
 set_seed(9)
 net = SiameseNetwork(1.0)
-optimizer = Adam(net.parameters(), lr=1e-2)  # weight_decay=2e-4
+optimizer = Adam(net.parameters(), lr=1e-2)
 val_instances, counter, loss_history = 10, [], []
 train_N_way, t_shot, val_N_way, k_shot, trials, num_epochs = 15, 6, 1, 1, 1, 10
 
