@@ -16,18 +16,20 @@ This repository provides the code to classify images in two different categories
 - All hyperparamters to control training and testing of the model are provided in the given `Training.py` file.
 ## Output Samples
 ### Image Similarity Scores
-| Image Comparison 1        | Image Comparison 2           | Image Comparion 3  |
-| ------------------------- |:----------------------------:| ------------------:|
+| Image Comparison 1        | Image Comparison 2           | Image Comparion 3           |
+| ------------------------- |:----------------------------:|:---------------------------:|
 | ![alt text](https://github.com/fork123aniket/Visual-Contrastive-Learning-for-Few-shot-Image-Classification/blob/main/Images/1.png) | ![alt text](https://github.com/fork123aniket/Visual-Contrastive-Learning-for-Few-shot-Image-Classification/blob/main/Images/2.png) | ![alt text](https://github.com/fork123aniket/Visual-Contrastive-Learning-for-Few-shot-Image-Classification/blob/main/Images/3.png) |
-| Image Comparison 4        | Image Comparison 5           | Image Comparion 6  |
-| ------------------------- |:----------------------------:| ------------------:|
+
+| Image Comparison 4        | Image Comparison 5           | Image Comparion 6           |
+| ------------------------- |:----------------------------:|:---------------------------:|
 | ![alt text](https://github.com/fork123aniket/Visual-Contrastive-Learning-for-Few-shot-Image-Classification/blob/main/Images/4.png) | ![alt text](https://github.com/fork123aniket/Visual-Contrastive-Learning-for-Few-shot-Image-Classification/blob/main/Images/5.png) | ![alt text](https://github.com/fork123aniket/Visual-Contrastive-Learning-for-Few-shot-Image-Classification/blob/main/Images/6.png) |
-| Image Comparison 7        | Image Comparison 8           | Image Comparion 9  | Image Comparison 10 |
-| ------------------------- |:----------------------------:| ------------------:| -------------------:|
+
+| Image Comparison 7        | Image Comparison 8           | Image Comparion 9           | Image Comparison 10           |
+| ------------------------- |:----------------------------:|:------------------:|:-------------------:|
 | ![alt text](https://github.com/fork123aniket/Visual-Contrastive-Learning-for-Few-shot-Image-Classification/blob/main/Images/7.png) | ![alt text](https://github.com/fork123aniket/Visual-Contrastive-Learning-for-Few-shot-Image-Classification/blob/main/Images/8.png) | ![alt text](https://github.com/fork123aniket/Visual-Contrastive-Learning-for-Few-shot-Image-Classification/blob/main/Images/9.png) | ![alt text](https://github.com/fork123aniket/Visual-Contrastive-Learning-for-Few-shot-Image-Classification/blob/main/Images/10.png) |
 ### Results for Image Classification
 | Image Comparison 1        | Image Comparison 2           | Image Comparion 3  |
-| ------------------------- |:----------------------------:| ------------------:|
+| ------------------------- |:----------------------------:|:------------------:|
 | ![alt text](https://github.com/fork123aniket/Visual-Contrastive-Learning-for-Few-shot-Image-Classification/blob/main/Images/11.png) | ![alt text](https://github.com/fork123aniket/Visual-Contrastive-Learning-for-Few-shot-Image-Classification/blob/main/Images/12.png) | ![alt text](https://github.com/fork123aniket/Visual-Contrastive-Learning-for-Few-shot-Image-Classification/blob/main/Images/13.png) |
 ### Analysis
 Among all the 10 comparisons made under ***Image Similarity Scores*** sub-section, images 1, 6, and 8 appear more similar, thereby having predicted labels as 1, as shown in the ***Results for Image Classification*** sub-section. This way, the current implementation frames the image similarity task as the image classification task.
