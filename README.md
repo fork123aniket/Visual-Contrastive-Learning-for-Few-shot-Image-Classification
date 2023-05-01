@@ -13,7 +13,7 @@ This repository provides the code to classify images in two different categories
 - The `SiameseNetwork` model class for n-way k-shot learning can be found in `Model.py` file.
 - To train the network, run `Training.py` file.
 - The average loss for the trained model is printed after every epoch.
-- All hyperparamters to control training and testing of the model are provided in the given `Training.py` file.
+- All hyperparameters to control training and testing of the model are provided in the given `Training.py` file.
 ## Output Samples
 ### Image Similarity Scores
 | Image Comparison 1        | Image Comparison 2           | Image Comparion 3           |
